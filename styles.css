@@ -118,8 +118,9 @@ body {
 .dashboard {
   display: grid;
   grid-template: 1fr 1fr / 3fr 1fr;
-  margin: 30px 30px 0 20px;
+  padding: 30px 30px 0 20px;
   gap: 20px;
+  background-color: #e5e7eb;
 }
 
 /* Projects */
@@ -135,10 +136,33 @@ body {
 
 .project {
   border: 1px solid cyan;
+  border-radius: 10px;
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 30px 20px;
 }
 
 .dashboard-heading {
   font-weight: bold;
   font-size: 17px;
   margin-bottom: 10px;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+.project-description {
+  color: #71717a;
+}
+
+.action-buttons {
+  justify-self: end;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.action-buttons .contents-icon {
+  margin-right: 20px;
 }
