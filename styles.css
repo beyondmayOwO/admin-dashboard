@@ -28,7 +28,7 @@ body {
 }
 
 .sidebar {
-  background-color: #dbeafe;
+  background-color: #c7d2fe;
 }
 
 .sidebar-icon {
@@ -180,7 +180,6 @@ body {
 }
 
 /* Announcements */
-
 .announcement-heading {
   font-size: 15px;
   font-weight: bold;
@@ -193,6 +192,7 @@ body {
 .announcements-dashboard {
   background-color: #fff;
   padding: 30px 30px 30px 30px;
+  border-radius: 12px;
   box-shadow: 5px 9px 10px -5px #b1b1b1;
 }
 
@@ -203,4 +203,39 @@ body {
 .divider {
   border-top: 1px solid #e5e7eb;
   margin: 20px 0;
+}
+
+/* Trending */
+.trending-dashboard {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / fit-content(50px) 1fr;
+  background-color: #fff;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 10px 20px 20px;
+  border-radius: 12px;
+  box-shadow: 5px 9px 10px -5px #b1b1b1;
+}
+
+.trending-profile-image {
+  width: 50px;
+}
+
+.trending-project-name {
+  color: #71717a;
+  font-size: 15px;
+}
+
+/* Copyright */
+.copyright {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 3px;
+}
+
+.copyright-link {
+  font-weight: bold;
 }
